@@ -1,0 +1,25 @@
+.homeItem {
+    margin: 1rem 0;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+  }
+  
+  .homeContent {
+    padding: 0;
+  }
+
+  .mySelfImage{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+@media(max-width:500px){
+  .mySelfImage{
+    margin-top: 90px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+}
